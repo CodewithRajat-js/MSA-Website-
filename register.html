@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - MSA Hackathon 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Orbitron:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="noise-overlay"></div>
+
+    <nav class="glass-nav">
+        <div class="logo">
+            <img src="msa-logo.png" alt="MSA Logo" class="msa-logo">
+            <span>MSA BIT JAIPUR</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#faq">FAQ</a>
+        </div>
+    </nav>
+
+    <div class="register-container section">
+        <div class="register-card">
+            <h2 class="section-title">Hacker Registration</h2>
+            <p class="register-subtitle">Secure your spot for the future.</p>
+
+            <form action="#" method="POST" class="register-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="john@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="college">College / University</label>
+                    <input type="text" id="college" name="college" required placeholder="BIT Jaipur">
+                </div>
+
+                <div class="form-group">
+                    <label for="year">Year of Study</label>
+                    <select id="year" name="year">
+                        <option value="1">1st Year</option>
+                        <option value="2">2nd Year</option>
+                        <option value="3">3rd Year</option>
+                        <option value="4">4th Year</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="github">GitHub Profile (Optional)</label>
+                    <input type="url" id="github" name="github" placeholder="https://github.com/username">
+                </div>
+
+                <div class="form-group">
+                    <label for="team">Team Name (Optional)</label>
+                    <input type="text" id="team" name="team" placeholder="Solo or Team Name">
+                </div>
+
+                <button type="submit" class="cta-button primary full-width">Submit Registration</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>MSA BIT JAIPUR</h3>
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/msa_bitjaipur?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank">Instagram</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Microsoft Student Ambassadors Hackathon. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

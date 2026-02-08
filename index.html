@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSA Hackathon 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Orbitron:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="noise-overlay"></div>
+
+    <nav class="glass-nav">
+        <div class="logo">
+            <img src="msa-logo.png" alt="MSA Logo" class="msa-logo">
+            <span>MSA BIT JAIPUR</span>
+        </div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#timeline">Timeline</a>
+            <a href="#tracks">Tracks</a>
+            <a href="#prizes">Prizes</a>
+            <a href="#faq">FAQ</a>
+        </div>
+        <button class="cta-button small" onclick="window.location.href='register.html'">Register</button>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <canvas id="hero-particles"></canvas>
+        <div class="hero-content">
+            <h1 class="glitch-text" data-text="MSA HACKATHON 2026">MSA HACKATHON 2026</h1>
+            <p class="subtitle">MICROSOFT STUDENT AMBASSADORS - BIT JAIPUR</p>
+            <p class="tagline">36 HOURS. ONE IDEA. INFINITE IMPACT.</p>
+            <p class="venue-text">Venue: To be decided</p>
+
+            <div class="countdown-container">
+                <div class="time-block">
+                    <span id="days">00</span>
+                    <span class="label">Days</span>
+                </div>
+                <div class="time-block">
+                    <span id="hours">00</span>
+                    <span class="label">Hours</span>
+                </div>
+                <div class="time-block">
+                    <span id="minutes">00</span>
+                    <span class="label">Mins</span>
+                </div>
+                <div class="time-block">
+                    <span id="seconds">00</span>
+                    <span class="label">Secs</span>
+                </div>
+            </div>
+
+            <div class="hero-buttons">
+                <button class="cta-button primary" onclick="window.location.href='register.html'">Register Now</button>
+                <button class="cta-button secondary"
+                    onclick="document.getElementById('timeline').scrollIntoView({behavior: 'smooth'})">View
+                    Timeline</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section scroll-reveal">
+        <div class="container">
+            <h2 class="section-title">About The Event</h2>
+            <div class="about-content">
+                <p>Join the future of innovation with MSA BIT Jaipur. The Microsoft Student Ambassadors Hackathon 2026
+                    is a 36-hour non-stop coding marathon where the brightest minds converge to solve real-world
+                    problems. Experience a cyberpunk reality where code meets creativity.</p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">36</span>
+                        <span class="stat-label">Hours</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">TBD</span>
+                        <span class="stat-label">Prizes</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Hackers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="section">
+        <div class="container">
+            <h2 class="section-title">Event Timeline</h2>
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-item left scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="time">Mar 27 - 02:00 PM</span>
+                        <h3>Check-in Begins</h3>
+                        <p>Get your badges and swag kits.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="time">Mar 27 - 04:00 PM</span>
+                        <h3>Opening Ceremony & Hacking Starts</h3>
+                        <p>Keynote speakers and problem statements revealed. The clock starts ticking.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item left scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="time">Mar 27 - 10:00 PM</span>
+                        <h3>Mentoring Session 1</h3>
+                        <p>Industry experts available for guidance.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="time">Mar 28 - 12:00 AM</span>
+                        <h3>Midnight Activities</h3>
+                        <p>Gaming tournaments and snack breaks.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item left scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="time">Mar 29 - 04:00 AM</span>
+                        <h3>Hacking Ends</h3>
+                        <p>Final submissions closed. Judging begins.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="time">Mar 29 - 08:00 AM</span>
+                        <h3>Results & Closing</h3>
+                        <p>Winners announced and prize distribution.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tracks" class="section">
+        <div class="container">
+            <h2 class="section-title">Tracks</h2>
+            <div class="tracks-grid">
+                <div class="track-card tilt-card scroll-reveal" style="grid-column: 1 / -1;">
+                    <div class="card-icon">🚀</div>
+                    <h3>To Be Decided</h3>
+                    <p>Exciting problem statements are on the way. Stay tuned!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="prizes" class="section">
+        <div class="container">
+            <h2 class="section-title">Prizes</h2>
+            <div class="prizes-grid">
+                <div class="prize-card main-prize scroll-reveal">
+                    <div class="prize-rank">?</div>
+                    <h3>To Be Decided</h3>
+                    <p class="prize-amount">TBD</p>
+                    <p>Amazing rewards await!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="section">
+        <div class="container">
+            <h2 class="section-title">FAQ</h2>
+            <div class="faq-container">
+                <div class="faq-item scroll-reveal">
+                    <button class="faq-question">Who can participate? <span class="icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>Any student currently enrolled in a university or college is eligible to participate.</p>
+                    </div>
+                </div>
+                <div class="faq-item scroll-reveal">
+                    <button class="faq-question">Is it free to register? <span class="icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>Yes! Participation is completely free for all admitted hackers.</p>
+                    </div>
+                </div>
+                <div class="faq-item scroll-reveal">
+                    <button class="faq-question">What is the team size? <span class="icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>Teams can consist of 2 to 4 members.</p>
+                    </div>
+                </div>
+                <div class="faq-item scroll-reveal">
+                    <button class="faq-question">Do I need prior experience? <span class="icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>No, we welcome beginners! There will be mentors to guide you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>MSA BIT JAIPUR</h3>
+                <p>Innovating for tomorrow.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/msa_bitjaipur?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Microsoft Student Ambassadors Hackathon. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
